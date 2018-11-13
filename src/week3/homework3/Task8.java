@@ -11,12 +11,11 @@ public class Task8 {
 
         String[] names = name.split(" ");
 
-        for[int i = 0; i < names.length; i++]
-        String s1 = name.substring(0, 1).toUpperCase();
-        String nameCapitalized = s1 + name.substring(1);
-        names[i] = nameCapitalized;
-        
-        System.out.println(nameCapitalized);
+        for (int i = 0; i < names.length; i++) {
+            String firstLetter = name.substring(0, 1).toUpperCase();
+            String nameCapitalized = firstLetter + name.substring(1).toLowerCase();
+        }
 
+        System.out.println();
     }
 }

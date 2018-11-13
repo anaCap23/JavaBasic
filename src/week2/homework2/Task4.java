@@ -10,8 +10,7 @@ public class Task4 {
 
         for (int i = 0; i < arr1.length; i++) {
             int element = arr1[i];
-            arr2[arr1.length - i - 1] = element;
+            arr2[i] = element;
         }
     }
-
 }
