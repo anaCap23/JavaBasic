@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ec335fb-1f78-4c97-a12a-5d14205bb463" name="Default Changelist" comment="second try">
+    <list default="true" id="8ec335fb-1f78-4c97-a12a-5d14205bb463" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/week3/homework3/Palindrome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/week3/homework3/Task2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week2/homework2/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/homework2/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week3/homework3/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/homework3/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week3/homework3/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/homework3/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week3/homework3/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week3/homework3/Task8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/homework3/Task8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/week2/homework2/Task4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/week2/homework2/Task4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/week3/homework3/Task3.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,13 +35,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="22905" />
+          <entry key="java" value="22957" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22905" />
+          <entry key="JAVA" value="22957" />
           <entry key="PLAIN_TEXT" value="29" />
         </counts>
       </usages-collector>
@@ -86,18 +81,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week3/homework3/Task4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week2/homework2/Task4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -106,20 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week3/homework3/Palindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week3/homework3/Palindrome1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="138">
+              <caret line="17" column="83" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -192,9 +166,9 @@
         <option value="$PROJECT_DIR$/src/week3/homework3/Task8.java" />
         <option value="$PROJECT_DIR$/src/week3/homework3/PAlindrome2.java" />
         <option value="$PROJECT_DIR$/src/week3/homework3/Task2.java" />
-        <option value="$PROJECT_DIR$/src/week3/homework3/Palindrome1.java" />
         <option value="$PROJECT_DIR$/src/week3/homework3/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/week2/homework2/Task4.java" />
+        <option value="$PROJECT_DIR$/src/week3/homework3/Palindrome1.java" />
       </list>
     </option>
   </component>
@@ -263,7 +237,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542100340242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542102667417" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
@@ -377,6 +351,14 @@
       <option name="presentableId" value="Default" />
       <updated>1537185881451</updated>
     </task>
+    <task id="LOCAL-00001" summary="second try">
+      <created>1542100408161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542100408161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -392,7 +374,7 @@
     <frame x="61" y="25" width="1305" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25099286" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25099286" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,7 +383,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960285" weight="0.29874215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960285" visible="true" weight="0.2985318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,7 +391,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.06446541" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50039715" side_tool="true" weight="0.35609755" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49960285" visible="true" weight="0.26101142" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49960285" weight="0.26101142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32883242" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -759,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3/homework3/Palindrome1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/week3/homework3/Task2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -787,6 +762,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/week3/homework3/Palindrome1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="17" column="83" selection-end-line="30" />
         </state>
       </provider>
     </entry>

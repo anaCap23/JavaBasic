@@ -13,7 +13,7 @@ public class Task6 {
             } else {
                 double random = Math.random();
                 int element = (int) (limit * random);
-                resultArray[i] =  element % 2 != 0 ? element: + 1;
+                resultArray[i] =  element % 2 != 0 ? element: element + 1;
             }
         }
         return resultArray;
