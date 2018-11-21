@@ -11,11 +11,20 @@ public class Task8 {
         int right = 0;
         int halfArray = array.length / 2;
 
-        for (int i = 0; i < halfArray; i++ ){
+        for (int i = 0; i < halfArray; i++) {
             left += array[i];
             right += array[array.length - i - 1];
 
+            if (left / halfArray > right / halfArray) {
+                    System.out.println(left + "left");
+            } else if (left / halfArray < right / halfArray) {
+                    System.out.println(right + "right");
+            } else {
+                    System.out.println("equals");
+            }
+            }
+
         }
-        System.out.println("");
     }
-}
+
+
