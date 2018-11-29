@@ -16,15 +16,16 @@ public class Task8 {
             right += array[array.length - i - 1];
 
             if (left / halfArray > right / halfArray) {
-                    System.out.println(left + "left");
+                System.out.println(left + "left");
             } else if (left / halfArray < right / halfArray) {
-                    System.out.println(right + "right");
+                System.out.println(right + "right");
             } else {
-                    System.out.println("equals");
+                System.out.println("equals");
             }
-            }
+
 
         }
     }
+}
 
 
