@@ -12,10 +12,8 @@ public class Task8 {
         String[] names = name.split(" ");
 
         for (int i = 0; i < names.length; i++) {
-            String firstLetter = name.substring(0, 1).toUpperCase();
-            String nameCapitalized = firstLetter + name.substring(1).toLowerCase();
+            String firstLetter = names[i].substring(0, 1).toUpperCase();
+            System.out.print(firstLetter + names[i].substring(1).toLowerCase() + " ");
         }
-
-        System.out.println();
     }
 }

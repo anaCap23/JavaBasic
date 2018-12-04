@@ -5,7 +5,7 @@ import week3.MatrixUtils;
 public class Task2 {
     public static void main(String[] args) {
 
-        boolean bool[][] = new boolean[4][4];
+        boolean[][] bool = new boolean[4][4];
 
         for (int i = 0; i < bool.length; i++) {
 
