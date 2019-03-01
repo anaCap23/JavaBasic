@@ -81,7 +81,7 @@ public class Library {
     public void downloadLib(String path) throws IOException, AppExeption {
         List<String> lines = Files.readAllLines(Paths.get(path));
         for (String line : lines) {
-            String[] values = line.split(" - ");
+            String[] values = line.split(", ");
             String type = values[0];
             String year = values[1];
             String author = values[2];

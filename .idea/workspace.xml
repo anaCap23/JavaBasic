@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0d573a8-8113-4ab4-8d57-dacfcd7ca0a3" name="Default Changelist" comment="" />
+    <list default="true" id="c0d573a8-8113-4ab4-8d57-dacfcd7ca0a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/oop/library/BookToAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/oop/library/controller/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/oop/library/controller/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JavaBasic/oop/library/LibraryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/library/controller/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/library/controller/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/oop/library/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/oop/library/LibraryTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/oop/library/controller/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="73">
+              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -23,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/oop/library/view/ConsoleLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="418">
               <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -35,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/oop/library/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="433">
+              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/oop/library/BookToAdd">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="102" lean-forward="true" selection-start-column="33" selection-end-column="102" />
+              <caret column="102" selection-start-column="33" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -81,28 +89,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/library/models/Magazine.java">
+        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Enum.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/library/models/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="108" selection-start-line="14" selection-start-column="108" selection-end-line="14" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/oop/library/models/Edition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -113,8 +103,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -123,8 +117,11 @@
         <option value="$PROJECT_DIR$/src/oop/library/models/Book.java" />
         <option value="$PROJECT_DIR$/src/oop/week2/cerviscenter/Tester.java" />
         <option value="$PROJECT_DIR$/src/oop/library/view/ConsoleLibrary.java" />
-        <option value="$PROJECT_DIR$/src/oop/library/controller/Library.java" />
         <option value="$PROJECT_DIR$/src/oop/library/BookToAdd" />
+        <option value="$PROJECT_DIR$/src/oop/library/controller/ILibrarty.java" />
+        <option value="$PROJECT_DIR$/src/oop/library/controller/ILibrary.java" />
+        <option value="$PROJECT_DIR$/test/oop/library/controller/ILibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/oop/library/controller/Library.java" />
         <option value="$PROJECT_DIR$/test/oop/library/LibraryTest.java" />
       </list>
     </option>
@@ -135,6 +132,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
@@ -174,7 +172,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="oop" type="462c0819:PsiDirectoryNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
-              <item name="exeptions" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="oop" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,14 +203,22 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551283096831" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551434706711" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="oop.library.controller" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oop" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,8 +233,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testDownload_Negative">
-    <configuration name="LibraryTest.testDownload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LibraryTest.testDownload_Positive">
+    <configuration name="LibraryTest.testDownload_Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -220,13 +244,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="oop.library" />
       <option name="MAIN_CLASS_NAME" value="oop.library.LibraryTest" />
-      <option name="METHOD_NAME" value="testDownload" />
+      <option name="METHOD_NAME" value="testDownload_Positive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testDownload_Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.testSearch_AllNullArguments" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -236,13 +260,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="oop.library" />
       <option name="MAIN_CLASS_NAME" value="oop.library.LibraryTest" />
-      <option name="METHOD_NAME" value="testDownload_Negative" />
+      <option name="METHOD_NAME" value="testSearch_AllNullArguments" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.testSearch_Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -252,23 +276,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="oop.library" />
       <option name="MAIN_CLASS_NAME" value="oop.library.LibraryTest" />
-      <option name="METHOD_NAME" value="testRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LibraryTest.testRead_Negative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.library.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="oop.library" />
-      <option name="MAIN_CLASS_NAME" value="oop.library.LibraryTest" />
-      <option name="METHOD_NAME" value="testRead_Negative" />
+      <option name="METHOD_NAME" value="testSearch_Negative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -290,13 +298,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.testWriteToLib_Positive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oop.library" />
+      <option name="MAIN_CLASS_NAME" value="oop.library.LibraryTest" />
+      <option name="METHOD_NAME" value="testWriteToLib_Positive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest.testDownload_Negative" />
-        <item itemvalue="JUnit.LibraryTest.testDownload" />
+        <item itemvalue="JUnit.LibraryTest.testDownload_Positive" />
+        <item itemvalue="JUnit.LibraryTest.testWriteToLib_Positive" />
+        <item itemvalue="JUnit.LibraryTest.testSearch_AllNullArguments" />
+        <item itemvalue="JUnit.LibraryTest.testSearch_Negative" />
         <item itemvalue="JUnit.LibraryTest.testSearch_Positive" />
-        <item itemvalue="JUnit.LibraryTest.testRead_Negative" />
-        <item itemvalue="JUnit.LibraryTest.testRead" />
       </list>
     </recent_temporary>
   </component>
@@ -314,35 +338,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testDownload - 2019.02.27 at 14h 25m 33s.xml">
-      <configuration name="LibraryTest.testDownload" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testRead_Negative - 2019.02.27 at 18h 06m 34s.xml">
+      <configuration name="LibraryTest.testRead_Negative" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testSearch_Positive - 2019.02.27 at 14h 33m 07s.xml">
+    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 18h 08m 13s.xml">
+      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 18h 09m 08s.xml">
+      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 18h 56m 03s.xml">
+      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testRead - 2019.02.27 at 18h 58m 39s.xml">
+      <configuration name="LibraryTest.testRead" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testRead_Negative - 2019.02.27 at 19h 00m 43s.xml">
+      <configuration name="LibraryTest.testRead_Negative" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testSearch_Positive - 2019.02.27 at 19h 07m 23s.xml">
       <configuration name="LibraryTest.testSearch_Positive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testDownload - 2019.02.27 at 14h 34m 55s.xml">
-      <configuration name="LibraryTest.testDownload" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testSearch_Positive - 2019.02.27 at 19h 08m 02s.xml">
+      <configuration name="LibraryTest.testSearch_Positive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testDownload - 2019.02.27 at 14h 35m 32s.xml">
-      <configuration name="LibraryTest.testDownload" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testSearch_Negative - 2019.02.27 at 20h 36m 22s.xml">
+      <configuration name="LibraryTest.testSearch_Negative" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testDownload - 2019.02.27 at 14h 36m 58s.xml">
-      <configuration name="LibraryTest.testDownload" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 14h 37m 46s.xml">
-      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 14h 38m 03s.xml">
-      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 14h 39m 40s.xml">
-      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 14h 40m 55s.xml">
-      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testDownload_Negative - 2019.02.27 at 14h 47m 11s.xml">
-      <configuration name="LibraryTest.testDownload_Negative" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testSearch_AllNullArguments - 2019.02.27 at 20h 40m 59s.xml">
+      <configuration name="LibraryTest.testSearch_AllNullArguments" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -356,6 +380,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -364,13 +389,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18926397" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3831672" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3831672" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32890365" />
+      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32852387" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32890365" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32852387" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.28903654" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -491,20 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Enum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/library/models/Genre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/week2/cerviscenter/Tester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1275">
@@ -538,9 +549,50 @@
     <entry file="file://$PROJECT_DIR$/testFile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/library/models/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Enum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/library/controller/ILibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/oop/library/controller/ILibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/oop/library/BookToAdd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="102" selection-start-column="33" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/library/view/ConsoleLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="418">
           <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -550,22 +602,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/oop/library/controller/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/oop/library/BookToAdd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="102" lean-forward="true" selection-start-column="33" selection-end-column="102" />
+        <state relative-caret-position="73">
+          <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/oop/library/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="433">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

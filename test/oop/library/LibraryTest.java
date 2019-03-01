@@ -16,6 +16,7 @@ import java.util.List;
 
 public class LibraryTest {
     private final static String DEFAULT_PATH = "myFile";
+    private final static String DEFAULT_CONTENT = "[Book], 1994, some book, nastya, DEFAULT_PATH, Genre.DRAMA, 3423423AFB";
     private Library library;
 
     @Before
@@ -25,7 +26,8 @@ public class LibraryTest {
 
     @BeforeClass
     public static void beforeClass() throws IOException {
-        Files.write(Paths.get(DEFAULT_PATH), "[Book], 1994, some book, nastya, DEFAULT_PATH, Genre.DRAMA, 3423423AFB".getBytes(), StandardOpenOption.CREATE);
+
+        Files.write(Paths.get(DEFAULT_PATH), DEFAULT_CONTENT.getBytes(), StandardOpenOption.CREATE);
     }
 
     @AfterClass
@@ -59,21 +61,29 @@ public class LibraryTest {
     }
 
     @Test
-    public void testSearch_Positive() throws AppExeption {
+    public void testSearch_ExistingEdition() throws AppExeption {
         library.addBook("1994", "some book", "nastya", DEFAULT_PATH, Genre.DRAMA, "3423423AFB");
-        library.search("some book", "nastya", null);
+        List<Edition>result = library.search("some book", "nastya", null);
+        Assert.assertEquals(result.size(), 1);
     }
 
     @Test
-    public void testSearch_Negative() throws AppExeption {
+    public void testSearch_NonExistingEdition() throws AppExeption {
         library.addBook("1994", "some book", "nastya", DEFAULT_PATH, Genre.DRAMA, "3423423AFB");
-        library.search("uutg", null, null);
+        List<Edition> result = library.search("uutg", null, null);
+        Assert.assertEquals(0, result.size());
+    }
+    @Test
+    public void testSearch_AllNullArguments() throws AppExeption {
+        library.addBook("1994", "some book", "nastya", DEFAULT_PATH, Genre.DRAMA, "3423423AFB");
+        List<Edition> result = library.search(null, null, null);
+        Assert.assertEquals(1, result.size());
     }
 
     @Test
     public void testWriteToLib_Positive() throws AppExeption, IOException {
         library.addBook("1994", "some book", "nastya", DEFAULT_PATH, Genre.DRAMA, "3423423AFB");
-        library.writeToLib("bla");
+        library.writeToLib("bla bla");
     }
     @Test(expected = AppExeption.class)
     public void testWiteToLib_Negative() throws AppExeption, IOException {
@@ -83,7 +93,10 @@ public class LibraryTest {
 
     @Test
     public void testRead() throws IOException {
-        library.readContent(DEFAULT_PATH);
+        String content = library.readContent(DEFAULT_PATH);
+        Assert.assertNotNull(content);
+        Assert.assertTrue(content.length() > 0);
+        Assert.assertEquals(DEFAULT_CONTENT, content);
     }
 
     @Test(expected = IOException.class)
@@ -91,7 +104,9 @@ public class LibraryTest {
         library.readContent("hyhih");
     }
 
-    @Test(expected = IOException.class)
-    public void testDownload_Negative() throws IOException, AppExeption {
+    @Test
+    public void testDownload_Positive() throws IOException, AppExeption {
+        library.downloadLib(DEFAULT_PATH);
+        Assert.assertNotNull(DEFAULT_PATH);
     }
 }
