@@ -1,4 +1,4 @@
 package oop.library;
 
-public class theBook {
+public class TheBook {
 }

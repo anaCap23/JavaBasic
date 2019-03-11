@@ -1,12 +1,10 @@
 package oop.library.view;
 
 import oop.library.controller.Library;
-import oop.library.models.Edition;
 import oop.library.models.Genre;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class ConsoleLibrary {
@@ -67,7 +65,7 @@ public class ConsoleLibrary {
 
                 } else if (chosen == 4) {
                     System.out.println("enter a path!");
-                    library.writeToLib(sc.nextLine());
+                    library.saveLibrary(sc.nextLine());
 
                 } else if (chosen == 5) {
                     System.out.println("please, enter a path!");

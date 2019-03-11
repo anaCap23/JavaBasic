@@ -71,7 +71,7 @@ public class Library {
 
     }
 
-    public void writeToLib(String path) throws IOException {
+    public void saveLibrary(String path) throws IOException {
         String result = editions.stream()
                 .map(Object::toString)
                 .collect(Collectors.joining("\n"));

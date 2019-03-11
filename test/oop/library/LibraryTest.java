@@ -8,6 +8,7 @@ import org.junit.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class LibraryTest {
     private final static String DEFAULT_PATH = "myFile";
-    private final static String DEFAULT_CONTENT = "[Book], 1994, some book, nastya, DEFAULT_PATH, Genre.DRAMA, 3423423AFB";
+    private final static String DEFAULT_CONTENT = "[Book], 1994, Thebook, DEFAULT_PATH, myFile, DEFAULT_PATH, DRAMA, 3423423AFB";
     private Library library;
 
     @Before
@@ -81,14 +82,19 @@ public class LibraryTest {
     }
 
     @Test
-    public void testWriteToLib_Positive() throws AppExeption, IOException {
+    public void testSaveLibrary_Positive() throws AppExeption, IOException {
         library.addBook("1994", "some book", "nastya", DEFAULT_PATH, Genre.DRAMA, "3423423AFB");
-        library.writeToLib("bla bla");
+        String savedPath = "bla bla";
+        library.saveLibrary(savedPath);
+        Path path = Paths.get(savedPath);
+        Assert.assertTrue(Files.exists(path));
+        Files.deleteIfExists(path);
+
     }
     @Test(expected = AppExeption.class)
-    public void testWiteToLib_Negative() throws AppExeption, IOException {
+    public void testSaveLibrary_Negative() throws AppExeption, IOException {
         library.addBook("1994", "some book", "nastya", "huduh", Genre.DRAMA, "3423423AFB");
-        library.writeToLib("bla");
+        library.saveLibrary("bla");
     }
 
     @Test
@@ -106,7 +112,7 @@ public class LibraryTest {
 
     @Test
     public void testDownload_Positive() throws IOException, AppExeption {
-        library.downloadLib(DEFAULT_PATH);
-        Assert.assertNotNull(DEFAULT_PATH);
+        library.downloadLib("/home/stace/IdeaProjects/JavaBasic/src/oop/library/TheBook.java");
+
     }
 }
